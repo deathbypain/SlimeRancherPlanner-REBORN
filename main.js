@@ -1,5 +1,5 @@
 /**
- * Created by barto on 09.09.17.
+ * REBORN fork by deathbypain created 01/19/2026.
  */
 
 var desiredWidth = 1680;
@@ -146,7 +146,9 @@ var slimeTypes = [
 	'Mosaic Slime',
 	'Dervish Slime',
 	'Tangle Slime',
-	'Saber Slime'
+	'Saber Slime',
+	'Gold Slime',
+	'Lucky Slime',
 ];
 
 var waterSlimeTypes = [
@@ -178,6 +180,10 @@ var foodTypes = [
 		'name': 'Phase Lemon', 'amount': 15
 	}, {
 		'name': 'Prickle Pear', 'amount': 15
+	}, {
+		'name': 'Gilded Ginger', 'amount': 15
+	}, {
+		'name': 'Kookadoba', 'amount': 15
 	}
 ];
 
