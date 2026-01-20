@@ -12,7 +12,7 @@ Helps in planning out your ranch, reorganizing, or just sharing your layout.
 Access the webapp here: [deathbypain.github.io/SlimeRancherPlanner-REBORN ![Slime Rancher Planner REBORN](https://img.shields.io/badge/website-live-brightgreen.svg)](https://deathbypain.github.io/SlimeRancherPlanner-REBORN)
 
 ## Issues
-If you have an idea for new function or you are experiencing a bug - look at [Open Issues](https://github.com/baatochan/SlimeRancherPlanner/issues) and create a new one if there isn't a similar issue already reported.
+If you have an idea for new function or you are experiencing a bug - look at [Open Issues](https://github.com/deathbypain/SlimeRancherPlanner-REBORN/issues) and create a new one if there isn't a similar issue already reported.
 
 ## Contributing
 This code is open source and if you'd like to contribute - [follow these steps](.github/CONTRIBUTING.md):
