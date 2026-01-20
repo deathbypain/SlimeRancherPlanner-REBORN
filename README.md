@@ -1,14 +1,14 @@
-# Slime Rancher Planner
+# Slime Rancher Planner REBORN
 Simple web-app that helps you plan and organize your ranch in Slime Rancher game.
 
-Author: Bartosz Rodziewicz
+Forked by: Howie Stephens
+
+Based on [Slime Rancher Planner](https://github.com/baatochan/SlimeRancherPlanner) by: Bartosz Rodziewicz
 
 ## About the app
-When you open it you see blank map of the Ranch and you can customize every plot. When done it gives you great overview of what your farm looks like or how you want it to look like.
+Displays a map of the Ranch with customization options for each farm plot, plus a "free-range" plot for each zone (designated with 'F').
 
-Helps in planning, reorganizing or just sharing your layout.
-
-You can find the app [here](https://baatochan.github.io/SlimeRancherPlanner/).
+Helps in planning out your ranch, reorganizing, or just sharing your layout.
 
 ## Issues
 If you have an idea for new function or you are experiencing a bug - look at [open issues](https://github.com/baatochan/SlimeRancherPlanner/issues) and create new if there isn't open similar case.
@@ -16,11 +16,7 @@ If you have an idea for new function or you are experiencing a bug - look at [op
 ## Contributing
 This code is open source and if you'd like to contribute - [follow these steps](.github/CONTRIBUTING.md):
 * Create a fork of repo.
-* Commit all the change to new branch on top of `develop` branch
-* Open pull request to develop branch
+* Commit all the change to new branch on top of `master` branch
+* Open pull request to `master` branch
 
-If you enjoy my work, you can give me a cup of coffee :)
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/baatochan/1usd)
-
-Happy ranching everyone :heart:
+Happy ranching! :heart:
