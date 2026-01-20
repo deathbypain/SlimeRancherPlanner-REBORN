@@ -1,26 +1,17 @@
-# Contributing to Slime Rancher Planner
-First of all I'd like to thank you for taking your time for making this project better for everyone :blush:
-
-## Questions about this app
-If you just want to ask me a question it will be easier for both of us if you hit me up on some messaging apps like Telegram ([@baatochan](https://t.me/baatochan)) or WhatsApp (@baatochan). You can just simply send me an [email](mailto:bartoszka1996@gmail.com) as well.
+# Contributing to Slime Rancher Planner REBORN
+First, thank you very much for your interest in improving this project!
 
 ## Issues or feature requests
-If you experience any issue or you have a feature request [let's see if no one before experienced it or thought about that](https://github.com/baatochan/SlimeRancherPlanner/issues) and if not, open a new issue.
+If you experience a bug or you have a feature request please check [open issues](https://github.com/deathbypain/SlimeRancherPlanner-REBORN/issues) first to see if anything similar has already been reported or suggested. If not, open a new issue of the appropriate type.
 
-In case of issue please follow an issue template. For feature requests just delete the template and write whatever you want.
+## Contributing with code
+If you want to add a feature or squash a bug yourself, feel free to add it as an Issue first and make it clear that you intend to personally handle it. If the idea does not fit within the scope of this project, I will try to make that clear before any significant work is done.
 
-## Contributing with a real code
-If you want to add some features done by yourself I'd start with hitting me up on Telegram on something like that (new issue is ok as well). I may be already doing that or I may not be interested in this particular feature at all.
+* First, please be aware that I (deathbypain) did not write the vast majority of this code; that honor goes to [baatochan](https://github.com/baatochan), so it's thanks to them that this project exists at all. It will be your responsibility to familiarize yourself with the existing codebase before making changes.
+* Please create your own fork of the repo and do all your work in your new fork. 
+* Commit your work frequently and write meaningful commit comments.
+* Make descriptive in-line comments in your code.
+* When ready, open a pull request. I will then review and test your code, and either merge it or provide feedback if there are any issues.
+* In this repo, the default branch is `master`. When changes have been merged into `master` and validated, they will then be pushed to the `webapp` branch which automatically publishes it to the actual webpage.
 
-If that's something small or we've already discussed that feature follow these steps.
-
-1. First of all I really apologize you for the quality of my code.
-1. Then you need to create your own fork of the repo.
-1. Do all your work in your repo in new branch on top of `develop` branch (it would be awesome if the name of your branch would represent a feature that you're working on).
-1. Commit your work frequently (my rule that I try to keep is commit after every new/edited function) and write meaningful commit comments (others need to know what the commit changes just by looking at the commit title and description - so please no commits like 'Updated main.js').
-1. It would be awesome if you would follow code commenting rules (comments for functions and so on).
-1. When you have some questions don't hesitate to contact me (telegram, mail, issue, etc...).
-1. If you think that your code is done open a pull requests. I will then test your code and apply it or give some comments what to change.
-1. Thanks again for taking your time to contribute.
-
-Happy ranching everyone :heart:
+### Thanks again for taking your time to contribute!
