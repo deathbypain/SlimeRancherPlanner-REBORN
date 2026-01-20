@@ -2,10 +2,10 @@ blank_issues_enabled: false
 templates:
   - name: Bug Report
     about: Report a bug or issue you've encountered
-    filename: 1-bug_report.md
+    filename: 1-bug_report.yml
   - name: Feature Request
     about: Suggest a new feature or improvement
-    filename: 2-feature_request.md
+    filename: 2-feature_request.yml
 contact_links:
   - name: Documentation
     url: https://github.com/deathbypain/SlimeRancherPlanner-REBORN
