@@ -148,7 +148,7 @@ var slimeTypes = [
 	'Tangle Slime',
 	'Saber Slime',
 	'Gold Slime',
-	'Lucky Slime',
+	'Lucky Slime'
 ];
 
 var waterSlimeTypes = [
@@ -194,6 +194,7 @@ var meatTypes = [
 	'Briar Hen',
 	'Painted Hen'
 ];
+
 
 //endregion
 
@@ -618,6 +619,8 @@ function showMaximizedPlots() {
  */
 function createSlimeCountTable() {
 	var st = $.extend(true, [], slimeTypes);
+	//insert water and fire slimes before the last two slimes (gold and lucky)
+	st.splice((st.length - 2), 0, ...waterSlimeTypes, ...fireSlimeTypes);
 	st.reverse();
 
 	$.each(st, function (key, value) {
@@ -642,7 +645,7 @@ function updateSlimeCountTable() {
 
 		var numberOfCorrals = 0;
 		$.each(plots, function (key, value) {
-			if (value.occupied === true && (value.type === 'corral' || value.type === 'freerange')) {
+			if (value.occupied === true && (value.type === 'corral' || value.type === 'freerange' || value.type === 'pond' || value.type === 'incinerator')) {
 				if (value.firstItem === slimeName || value.secondItem === slimeName) numberOfCorrals++;
 			}
 		});
