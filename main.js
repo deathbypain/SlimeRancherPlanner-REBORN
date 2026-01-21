@@ -76,7 +76,7 @@ var defaultValuesPlots = [
 	}, {
 		'id': 'O4', 'leftPosition': 669, 'topPosition': 468, 'align': 'center', 'occupied': false, 'type': null, 'firstItem': null, 'secondItem': null, 'description': '', 'numberOfItems': 0
 	}, {
-		'id': 'O5', 'leftPosition': 631, 'topPosition': 604, 'align': 'center', 'occupied': false, 'type': null, 'firstItem': null, 'secondItem': null, 'description': '', 'numberOfItems': 0
+		'id': 'O5', 'leftPosition': 631, 'topPosition': 554, 'align': 'center', 'occupied': false, 'type': null, 'firstItem': null, 'secondItem': null, 'description': '', 'numberOfItems': 0
 	}, {
 		'id': 'O6', 'leftPosition': 631, 'topPosition': 640, 'align': 'center', 'occupied': false, 'type': null, 'firstItem': null, 'secondItem': null, 'description': '', 'numberOfItems': 0
 	}, {
